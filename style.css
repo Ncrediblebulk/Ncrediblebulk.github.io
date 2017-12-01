@@ -37,6 +37,40 @@ button:hover {
 	background: steelblue;
 }
 
+p {
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+}
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+.instructions {
+	color: white;
+	background-color: #232323;
+	font-size: 3em;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
 .square {
 	width: 30%;
 	background: purple;
@@ -49,27 +83,7 @@ button:hover {
 	-moz-transition: background 0.3s;
 }
 
-#container {
-	max-width: 600px;
-	margin: 20px auto;
-}
-
-#stripe {
-	background-color: white;
-	height: 30px;
-	text-align: center;
-}
-
 .selected {
 	color: white;
 	background: steelblue;
-}
-
-#colorDisplay {
-	font-size: 200%;
-}
-
-#message {
-	display: inline-block;
-	width: 20%;
 }
