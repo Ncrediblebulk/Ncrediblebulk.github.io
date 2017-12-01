@@ -40,7 +40,7 @@ button:hover {
 p {
 	color: white;
 	text-align: center;
-	margin-top: 0px;
+	margin: 0px;	
 }
 #container {
 	max-width: 600px;
@@ -65,10 +65,10 @@ p {
 .instructions {
 	color: white;
 	background-color: #232323;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	font-weight: normal;
-	margin-bottom: 0px;
+	margin: 0px;	
 }
 
 .square {
