@@ -43,11 +43,22 @@ a {
 .headerName {
 	font-size: 40px;
 	padding-left: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .headerLinks {
 	font-size: 20px;
 	list-style-type: none;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
+
+.headerRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 75px;
 }
 
 .firstLetter {
@@ -71,12 +82,6 @@ a {
 	padding-right: 15px;
 	margin: 0 auto;
 	max-width: 1024px;
-}
-
-.headerRow {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
 }
 
 .floatingSkills ul {
