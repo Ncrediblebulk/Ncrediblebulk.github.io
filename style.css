@@ -1,89 +1,150 @@
+/*Purple #3E077C #ac84da*/
+/*Black #666666*/
+/*White #F7F7F7*/
+
+
+/*CSS HOME PAGE*/
+/*CSS HOME PAGE*/
+/*CSS HOME PAGE*/
+
 body {
-	background-color: #232323;
-	margin: 0;
-	font-family: "Montserrat", "Avenir";
+	font-family: "Rubik", sans-serif;
+	display: block;
+	margin: 0px;
+}
+
+header {
+	color: #F7F7F7;
+	background-color: #000000;
+}
+
+a:hover {
+	color: #3E077C;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+	transition: color 0.2s;
+}
+
+@media (min-width: 768px) {
+	.headerLinks {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
+	.headerLinks li + li{
+		margin-left: 20px;
+	}
+}
+
+.headerName {
+	font-size: 40px;
+	padding-left: 15px;
+}
+
+.headerLinks {
+	font-size: 20px;
+	list-style-type: none;
+}
+
+.firstLetter {
+	font-size: 1.15em;
+	color: #ac84da;
 
 }
 
-h1 {
-	color: white;
-	text-align: center;
-	background: steelblue;
-	margin: 0;
-	font-weight: normal;
-	text-transform: uppercase;
-	line-height: 1.1;
-	padding: 20px 0;
-}
-
-button {
-	border: none;
-	background: none;
-	text-transform: uppercase;
-	font-family: "Montserrat", "Avenir";
-	height: 100%;
-	font-weight: 700;
-	color: steelblue;
-	letter-spacing: 1px;
-	font-size: inherit;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	outline: none;
-}
-
-button:hover {
-	color: white;
-	background: steelblue;
-}
-
-p {
-	color: white;
-	text-align: center;
-	margin: 0px;	
-}
-#container {
-	max-width: 600px;
-	margin: 20px auto;
-}
-
-#stripe {
-	background-color: white;
-	height: 30px;
-	text-align: center;
-}
-
-#colorDisplay {
-	font-size: 200%;
-}
-
-#message {
-	display: inline-block;
-	width: 20%;
-}
-
-.instructions {
-	color: white;
-	background-color: #232323;
-	font-size: 2em;
-	text-align: center;
-	font-weight: normal;
-	margin: 0px;	
-}
-
-.square {
-	width: 30%;
-	background: purple;
-	padding-bottom: 30%;
-	float: left;
-	margin: 1.6%;
+.picture img {
+	display: block;
 	border-radius: 15%;
-	transition: background 0.3s;
-	-webkit-transition: background 0.3s;
-	-moz-transition: background 0.3s;
 }
 
-.selected {
-	color: white;
-	background: steelblue;
+.picture {
+	float: left;
+	margin: 0 30px 5px 0;
 }
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+.headerRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.floatingSkills ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.floatingSkills li {
+	display: inline;
+}
+
+.floatingSkills li + li {
+	margin-left: 15px;
+}
+
+.floatingSkills li + li:before {
+	content: '\2022';
+	margin-right: 15px;
+	font-size: 1.5em;
+}
+
+.footerLinks {
+	font-size: 20px;
+	list-style-type: none;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+.fa {
+	margin-right: 10px;
+}
+
+.skillBody {
+	padding-bottom: 30px;
+}
+
+.importantText {
+	font-weight: bold;
+}
+
+.endFooter {
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*CSS FOR PROJECT PAGE*/
+/*CSS FOR PROJECT PAGE*/
+/*CSS FOR PROJECT PAGE*/
+
+.projectPage h4 {
+	font-weight: normal;
+	margin: 0;
+
+}
+
+.projectPage h3 {
+	margin: 0;
+}
+
+/*CSS FOR ABOUT PAGE*/
+/*CSS FOR ABOUT PAGE*/
+/*CSS FOR ABOUT PAGE*/
